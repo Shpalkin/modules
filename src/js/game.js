@@ -1,5 +1,5 @@
 import { Character } from './domain.js';
-export { readGameSaving, writeGameSaving };
+export { GameSavingData, readGameSaving, writeGameSaving };
 
 export default class Game {
     start() {
